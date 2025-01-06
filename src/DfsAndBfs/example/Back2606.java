@@ -17,8 +17,6 @@ public class Back2606 {
 	
 	static int node, line;
 	
-	static Queue<Integer> q = new LinkedList<>();
-	
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -37,7 +35,7 @@ public class Back2606 {
 			
 			arr[a][b] = arr[b][a] = 1;
 		}
-		
+				
 		dfs(1);
 		
 		System.out.println(count - 1);
