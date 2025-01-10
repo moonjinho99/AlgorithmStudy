@@ -1,4 +1,4 @@
-package DfsAndBfs.example;
+package DfsAndBfs.dfsexample;
 
 import java.io.BufferedReader;
 import java.io.IOException;

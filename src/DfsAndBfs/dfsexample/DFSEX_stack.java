@@ -1,4 +1,4 @@
-package DfsAndBfs.example;
+package DfsAndBfs.dfsexample;
 
 import java.util.ArrayList;
 import java.util.Stack;
