@@ -1,4 +1,4 @@
-package DfsAndBfs.example;
+package DfsAndBfs.dfsexample;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,8 +16,6 @@ public class Back2606 {
 	static int count = 0;
 	
 	static int node, line;
-	
-	static Queue<Integer> q = new LinkedList<>();
 	
 	public static void main(String[] args) throws IOException{
 		
@@ -37,7 +35,7 @@ public class Back2606 {
 			
 			arr[a][b] = arr[b][a] = 1;
 		}
-		
+				
 		dfs(1);
 		
 		System.out.println(count - 1);
